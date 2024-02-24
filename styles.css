@@ -1,0 +1,234 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ff7b00;
+}
+
+header {
+    position: center;
+    background-position: center;
+    background-color: chocolate;
+}
+
+footer {
+    position: center;
+    background-position: center;
+    background-color: #a75a03;
+}
+
+nav {
+    background-color: #a75a03;
+    overflow: hidden;
+    position: static;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 227, 101);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #f8a01c;
+    color: black;
+}
+
+.sectionhero {
+    color: black;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.cuadromyself {
+    background-color: #fac75a;
+    border-style: double;
+}
+
+.textomyself {
+    color: black;
+    text-align: left;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.Hero {
+    color: red;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.cuadrohero {
+    border-style: double;
+    background-color: #fac75a;
+}
+
+.acercade {
+    color: white;
+    text-align: center;
+}
+
+.center {
+    align-content: center;
+    align-self: center;
+}
+
+.separate {
+    padding-top: 70px;
+}
+
+.MyTitle {
+    color: rgb(172, 69, 1);
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.cuadroepisode {
+    border-style: double;
+    background-color: #fac75a;
+}
+
+.navbar {
+    background-color: #ec8f04;
+}
+
+.card {
+    background-color:#ffe284;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.centrado {
+    position:relative;
+}
+
+.informaciongoku {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cartas {
+    padding-bottom: 50px;
+}
+
+.contacto {
+    margin: 50px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(250, 154, 10);
+}
+
+.form {
+    text-align: center;
+}
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+    max-width: 300px;
+}
+
+.carousel-item {
+    width: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrado {
+    text-align: center;
+    align-items: center;
+}
+
+.marcotexto {
+    background-color: #ffb921;
+    transition: background-color 0.5s;
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.marcotexto:hover {
+    background-color: #ffe055;
+}
+
+.submit {
+    background-color:rgb(245, 94, 24);
+    transition: background-color 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit:hover {
+    background-color:rgb(247, 137, 86);
+}
+
+.escritura {
+    background-color:#ffe600;
+    transition: background-color 0.5s;
+    color:red;
+}
+
+.escritura:hover {
+    background-color:#fff173;
+}
+
+.Sayan1 {
+    position: relative;
+}
+
+.Sayan1 .Sayan2 {
+    position: absolute;  
+    top: 0;  
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.Sayan1:hover .Sayan2 {
+    opacity: 1;
+}
+
+.Sayan1:hover .Sayan1 {
+    opacity: 0;
+}
+
+.marcotestimonios {
+    background-color: #ffb921;
+    transition: background-color 0.5s;
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
